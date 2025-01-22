@@ -115,9 +115,12 @@
   
   .project-tile img {
     max-width: 100%; 
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 1rem;
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2)
   }
   
   .project-tile h3 {
